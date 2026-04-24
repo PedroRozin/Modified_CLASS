@@ -1,0 +1,42 @@
+# Build outputs
+build/
+dist/
+lib/
+lib.linux-*/
+temp.linux-*/
+
+# Python packaging and caches
+__pycache__/
+*.pyc
+*.pyo
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Compiled artifacts from CLASS
+class_public/class
+class_public/libclass.a
+class_public/*.o
+class_public/*.so
+class_public/*.a
+class_public/*.mod
+class_public/output/
+class_public/build/
+class_public/dist/
+class_public/lib/
+class_public/lib.linux-*/
+class_public/temp.linux-*/
+class_public/classy.egg-info/
+class_public/python/build/
+class_public/python/dist/
+class_public/python/*.egg-info/
+
+# Notebook and editor noise
+.ipynb_checkpoints/
+.vscode/
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.swp
