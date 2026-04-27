@@ -1,4 +1,9 @@
-output/
+output/*
+!output/.gitkeep
+classy.egg-info/
+dist/
+delta_prime_cdm.txt
+source/*.bak
 *~
 build/
 class
